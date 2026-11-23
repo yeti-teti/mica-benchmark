@@ -1,0 +1,2 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+results/32MC/EMProt/model.cif:A	data/targets/32MC/reference/32MC.cif:A	0.9288	0.9985	0.36	0.930	1.000	1.000	773	719	719

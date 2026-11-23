@@ -1,0 +1,2 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+results/32MC/EModelX/model.pdb:A	data/targets/32MC/reference/32MC.cif:A	0.9933	0.9933	0.58	0.996	0.996	0.999	719	719	717

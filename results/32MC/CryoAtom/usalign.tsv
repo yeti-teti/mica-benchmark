@@ -1,0 +1,2 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+results/32MC/CryoAtom/model.cif:Aa	data/targets/32MC/reference/32MC.cif:A	0.9944	0.9972	0.35	0.994	0.997	0.999	721	719	718

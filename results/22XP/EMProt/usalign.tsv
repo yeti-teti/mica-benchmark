@@ -1,0 +1,2 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+results/22XP/EMProt/model.cif:A:	data/targets/22XP/reference/22XP.cif:B:A	0.4829	0.4892	1.14	0.477	0.483	0.970	535	528	263

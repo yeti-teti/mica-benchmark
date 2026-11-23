@@ -1,0 +1,2 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+results/32MC/ModelAngelo/model.cif:Aa	data/targets/32MC/reference/32MC.cif:A	0.9966	0.9938	0.42	0.997	0.994	0.999	717	719	716

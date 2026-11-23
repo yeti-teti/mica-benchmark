@@ -1,0 +1,2 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+results/22XP/CryoAtom/model.cif:Aa:Ab:Ac:Ad	data/targets/22XP/reference/22XP.cif:A:B::	0.8961	0.8111	1.37	0.904	0.816	0.982	477	528	439

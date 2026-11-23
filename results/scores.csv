@@ -1,0 +1,11 @@
+target,method,status,tm_score,aligned_ca,sequence_identity_pct,ca_match_pct,ca_quality_pct,sequence_match_pct,elapsed_seconds,model_file
+22XP,MICA,ok,0.9827,528,100.0,97.35,97.35,97.08,,22XP/MICA/model.pdb
+22XP,ModelAngelo,ok,0.3931,208,96.6,96.40,45.64,97.10,652.659,22XP/ModelAngelo/model.cif
+22XP,EModelX(+AF),ok,0.4357,234,100.0,90.31,77.65,64.15,145.778,22XP/EModelX/model.pdb
+22XP,CryoAtom,ok,0.8111,439,98.2,88.26,79.73,95.96,561.9,22XP/CryoAtom/model.cif
+22XP,EMProt,ok,0.4892,263,97.0,95.70,96.97,95.31,615.431,22XP/EMProt/model.cif
+32MC,MICA,refinement_failed,,,,,,,,
+32MC,ModelAngelo,ok,0.9938,716,99.9,99.86,99.58,99.72,420.614,32MC/ModelAngelo/model.cif
+32MC,EModelX(+AF),ok,0.9933,717,99.9,99.72,99.72,99.58,205.248,32MC/EModelX/model.pdb
+32MC,CryoAtom,ok,0.9972,718,99.9,99.58,99.86,99.72,443.4,32MC/CryoAtom/model.cif
+32MC,EMProt,ok,0.9985,719,100.0,93.01,100.00,99.72,600.464,32MC/EMProt/model.cif

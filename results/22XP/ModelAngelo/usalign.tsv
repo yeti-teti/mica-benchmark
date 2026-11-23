@@ -1,0 +1,2 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+results/22XP/ModelAngelo/model.cif:Ab:Ac:Aa:Ad:Ae	data/targets/22XP/reference/22XP.cif:A:B:::	0.8286	0.3931	0.38	0.804	0.381	0.966	250	528	208
