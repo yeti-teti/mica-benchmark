@@ -1,24 +1,27 @@
 # Benchmark
 
-To test and tun benchmarks on 5 different CryoEm methods
+Repo to benchmark five methods for building protein structures from cryo-EM maps.
 
-Top run then benchamrks you can run all the 5 notebooks individually
+## Run the benchmarks
 
-MICA 
-ModelAngelo
-ModelX
-CryoAtom
-EMPropt
+You can run each notebook individually. Open it from the repo folder and run the cells in order. Each notebook sets up its own environment.
 
-Prerequisites:
-Download and get the Phenix in the same folder as MICA.ipynb
+- [MICA](MICA.ipynb)
+- [ModelAngelo](ModelAngelo.ipynb)
+- [EModelX](EModelX.ipynb)
+- [CryoAtom](CryoAtom.ipynb)
+- [EMProt](EMProt.ipynb)
 
-Dataused and prereqes:
-For this benchmark i used 22 and 32
+Use x86-64 Linux with CUDA to run all five. Download the Phenix installer and put it in the same folder as `MICA.ipynb`. The scoring cells also use Phenix.
 
-First get Af2
+## Data
 
-Get Af3 using
+For this benchmark, I used 22XP and 32MC. The maps, FASTA files, reference structures, and AF2 and AF3 predictions are in [data/targets/](data/targets/).
 
+I used the notebooks in [af/](af/) to get the AF2 predictions. I used [AlphaFold Server](https://alphafoldserver.com/) to get the AF3 predictions.
 
-Data: The targets are present in the two folders inside targets 22xp, and 32 mc with inputs and af prediciton present and the run for af are present in the af folder
+Download the dataset from [Zenodo](https://doi.org/10.5281/zenodo.24477761).
+
+## Results
+
+The final models and run notes are in [results/](results/). The scores for both targets are in [scores.csv](results/scores.csv).
