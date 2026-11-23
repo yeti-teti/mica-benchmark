@@ -24,4 +24,10 @@ Download the dataset from [Zenodo](https://doi.org/10.5281/zenodo.24477761).
 
 ## Results
 
-The final models and run notes are in [results/](results/). The scores for both targets are in [scores.csv](results/scores.csv).
+The final models are in [results/](results/). [scores.csv](results/scores.csv) records the six metrics for 22XP and 32MC. TM-scores use the deposited reference length for normalization. Paths in the `model_file` column are relative to `results/`. Each completed model has a US-align summary alongside it.
+
+ModelAngelo, EModelX(+AF), and EMProt come from the second run. CryoAtom and refined MICA on 22XP come from the initial run. I used four CPU workers for MICA docking to avoid Out of memory errors. MICA produced an unrefined 32MC model before Phenix rejected the refinement parameters. The 32MC score fields for MICA are blank. The successful 22XP refinement used [this parameter file](results/22XP/MICA/phenix-2.2.1-fixed.eff).
+
+CryoAtom's 22XP elapsed time includes an ESM checkpoint download. MICA's 22XP refinement was run separately, so its end-to-end elapsed time is blank.
+
+MICA and EMProt used AlphaFold Server predictions as inputs.
